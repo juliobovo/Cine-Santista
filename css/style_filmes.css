@@ -1,0 +1,217 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/10/2014, 19:46:41
+    Author     : Julio
+*/
+
+/* importando as fontes do google fonte */
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Molengo');
+
+
+/*  definindo  fonte do site*/   
+html,body {
+    font-family: 'Roboto', sans-serif;
+    color: #8a8a8a;
+}
+
+hr{
+  
+  background-color: black;
+  height: 2px;
+  margin-top: 30px;
+}
+
+h2{
+    margin-left: 20px;
+    font-family: 'Acme', sans-serif;
+    color: black;
+}
+
+
+
+
+
+/* Cabeçalho , apenas o retangulo */
+#top {
+    position: fixed;
+    background: #48d1cc;
+    height: 60px;
+    width: 100%;
+    z-index: 997;
+    color: #fff;
+    
+    /* sombra do retangulo do top */
+    -webkit-box-shadow: 0 5px 30px 1px #8c8c8c;
+       -moz-box-shadow: 0 5px 30px 1px #8c8c8c;
+            box-shadow: 0 5px 30px 1px #8c8c8c;
+}
+
+.icone{
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-top:10px;
+    margin-left: 20px;
+    
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    background: black;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+  /* conteudo do site*/
+#content {
+    background: #fff;
+    padding-top: 80px;
+}
+
+
+#texto_rodape{
+    padding-top: 20px;
+    color: white;
+    
+}
+
+
+h1{
+    text-align:  center;
+    
+}
+
+h3{
+    margin-left: 25px;
+}
+
+.nome_cinema{
+    margin-left: 25px;
+    color: black;
+}
+
+.nome_filme{
+    margin-left: 70px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-family: 'Acme', sans-serif;
+    color: black;
+    font-size: 28px;
+}
+
+
+
+.imagens_filmes{
+   
+    width: 262px;
+    height: 354px;
+    float:  left;
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+
+
+
+.sinopse{
+    padding-left: 25px;
+    width: 40%;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Molengo', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.lista{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.sobre_filme{
+    font-family: 'Molengo', sans-serif;
+    float: left;
+    width: 300px;
+    margin-right:50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: black;
+    font-size: 16px;
+    
+    
+}
+
+.sinopse{
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    
+    
+}
+
+ul{
+  
+  list-style: none;
+  display: inline-block;
+}
+
+.horario2d{
+    float: left;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.nome_cidade{
+    margin-left: 25px;
+}
+
+
+
+
+.texto_rodape{
+    padding-top: 20px;
+}
+
+.telefone{
+    padding-left: 100px;
+}
+
+.email{
+    padding-left: 100px;
+}
+
+.icone_twitter{
+    margin-left: 50px;
+}
+
+.texto_rodape{
+    margin-left: 50px;
+}
+
+.Endereço{
+    font-family: 'Molengo', sans-serif;
+    color: black;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.horarios_e_preco{
+    font-family: 'Molengo', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+
+
+
+

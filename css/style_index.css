@@ -1,0 +1,11 @@
+ @import url("bootstrap.min.css");
+
+body { padding-top: 70px; }
+
+
+.carousel{
+    
+   width: 980px;
+    margin: 0 auto;
+    
+}

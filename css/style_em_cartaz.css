@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01/10/2014, 19:46:41
+    Author     : Julio
+*/
+
+/* importando as fontes do google fonte */
+
+
+
+/*  definindo  fonte do site*/   
+html,body {
+   
+    color: #8a8a8a;
+    
+}
+
+hr{
+  
+  background-color: black;
+  height: 2px;
+  margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Cabeçalho , apenas o retangulo */
+
+
+  /* conteudo do site*/
+#content {
+    background: #fff;
+    padding-top: 80px;
+  
+}
+
+.icone{
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-top:10px;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+    
+}
+
+.titulo_principal{
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    color: black;
+    font-size:45px;
+}
+
+.lista_filmes{
+    list-style: none;
+    display: inline-block;
+    }
+
+.nome_filme{
+    
+    text-transform: uppercase;
+    width: 270x;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+    color: black;
+    text-align: center;
+    
+    
+    
+}
+
+.nome_e_imagem{
+    float: left;
+    margin-left: 35px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+
+.imagens_filmes{  
+    width: 262px;
+    height: 354px;
+    
+   
+}
+
+
+
+.saiba_mais{
+    background: #e8d231;;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-transform:  uppercase;
+    width: 262px;
+    
+}
+
+
+/* Zoom nas imagens da lista  dos filmes em cartaz*/
+ ul#lista_filme_cartaz li:hover{
+    -webkit-transform: scale(1.2);
+}
+
+
+
+
+.rodape{
+    height: 60px;
+    width: 100%;
+    background: black;
+    position: absolute;
+    border-radius: 5px;
+    
+    
+   
+}
+
+
+.texto_rodape{
+    padding-top: 20px;
+    margin-left: 50px;
+    color: white;
+}
+
+.telefone{
+    padding-left: 100px;
+}
+
+.email{
+    padding-left: 100px;
+}
+
+.icone_twitter{
+    margin-left: 50px;
+}
+
+
+
+} 
